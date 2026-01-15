@@ -1,0 +1,32 @@
+.education {
+  padding: 3rem 0;
+}
+.education .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.edu-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.edu-item {
+  background: linear-gradient(
+    180deg,
+    rgba(8, 10, 14, 0.7),
+    rgba(10, 12, 18, 0.6)
+  );
+  padding: 1rem;
+  border-radius: 10px;
+}
+.edu-meta {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 900px) {
+  .edu-list {
+    grid-template-columns: 1fr;
+  }
+}

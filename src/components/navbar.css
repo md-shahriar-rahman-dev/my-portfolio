@@ -1,0 +1,100 @@
+:root {
+  --bg: #0f1724;
+  --card: #0b1220;
+  --accent: #6ee7b7;
+  --text: #e6eef8;
+}
+
+.nav-header {
+  background: linear-gradient(90deg, rgba(15, 23, 36, 1), rgba(10, 12, 20, 1));
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  position: sticky;
+  top: 0;
+  z-index: 60;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.8rem 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-link {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: var(--text);
+  text-decoration: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+}
+
+.nav a:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.nav a.active {
+  background: rgba(255, 255, 255, 0.03);
+  font-weight: 600;
+}
+.nav a:focus {
+  outline: 3px solid rgba(125, 211, 252, 0.2);
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-link:focus {
+  position: static;
+  left: auto;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: #012;
+  border-radius: 6px;
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: 0;
+  color: var(--text);
+  font-size: 1.2rem;
+}
+
+@media (max-width: 800px) {
+  .nav {
+    position: absolute;
+    right: 1rem;
+    top: 64px;
+    flex-direction: column;
+    background: var(--bg);
+    padding: 0.8rem;
+    border-radius: 8px;
+    display: none;
+  }
+  .nav.open {
+    display: flex;
+  }
+  .nav-toggle {
+    display: block;
+  }
+}
