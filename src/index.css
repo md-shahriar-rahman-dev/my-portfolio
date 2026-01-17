@@ -19,14 +19,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* REMOVE or COMMENT OUT this container class - it conflicts with hero.css */
-/*
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-*/
+
 
 a {
   font-weight: 500;
@@ -54,7 +47,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Remove or keep minimal h1 style */
+
 h1 {
   margin: 0;
   line-height: 1.1;
