@@ -1,3 +1,4 @@
+/* index.css */
 :root {
   --bg: #0f1724;
   --card: #0b1220;
@@ -8,7 +9,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  color-scheme: dark;
   color: var(--text);
   background-color: var(--bg);
 
@@ -18,12 +19,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* layout helper */
+/* REMOVE or COMMENT OUT this container class - it conflicts with hero.css */
+/*
 .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 1rem;
 }
+*/
 
 a {
   font-weight: 500;
@@ -51,8 +54,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Remove or keep minimal h1 style */
 h1 {
-  font-size: 3.2em;
+  margin: 0;
   line-height: 1.1;
 }
 
@@ -75,15 +79,3 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
