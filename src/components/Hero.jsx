@@ -109,7 +109,7 @@ export default function Hero() {
           <path d="M12 2a10 10 0 00-3.16 19.49c.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.45-1.11-1.45-.91-.62.07-.61.07-.61 1.01.07 1.54 1.04 1.54 1.04.9 1.54 2.36 1.1 2.94.84.09-.65.35-1.1.63-1.35-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.02-2.68-.1-.25-.45-1.28.1-2.67 0 0 .84-.27 2.75 1.02A9.57 9.57 0 0112 6.8c.85.004 1.71.115 2.51.337 1.9-1.29 2.74-1.02 2.74-1.02.55 1.39.2 2.42.1 2.67.63.7 1.02 1.59 1.02 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85 0 1.33-.01 2.4-.01 2.73 0 .26.18.58.69.48A10 10 0 0012 2z" />
         </svg>
       </div>
-      <span className="social-tooltip">GitHub</span>
+      <span className="social-tooltip"></span>
     </a>
 
     {/* LinkedIn */}
@@ -132,7 +132,7 @@ export default function Hero() {
           <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
         </svg>
       </div>
-      <span className="social-tooltip">LinkedIn</span>
+      <span className="social-tooltip"></span>
     </a>
 
     {/* Twitter */}
@@ -155,13 +155,13 @@ export default function Hero() {
           <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
         </svg>
       </div>
-      <span className="social-tooltip">Twitter</span>
+      <span className="social-tooltip"></span>
     </a>
 
     {/* Email */}
     <a
       className="social-link"
-      href="mailto:shahriar@example.com"
+      href="sahriarrahman701@gmail.com"
       aria-label="Email"
     >
       <div className="social-icon-wrapper">
@@ -176,7 +176,7 @@ export default function Hero() {
           <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
         </svg>
       </div>
-      <span className="social-tooltip">Email</span>
+      <span className="social-tooltip"></span>
     </a>
   </div>
 </div>
