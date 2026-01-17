@@ -19,6 +19,8 @@
   align-items: center;
   position: relative;
   overflow: hidden;
+  scroll-margin-top: 90px; /* height of navbar */
+  padding-top: 120px;
 }
 
 /* Animated background shapes */

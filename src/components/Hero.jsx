@@ -45,21 +45,26 @@ export default function Hero() {
 
             {/* Stats */}
             <div className="hero-stats">
-              <div className="stat">
-                <div className="stat-number">50+</div>
-                <div className="stat-label">Projects</div>
-              </div>
-              <div className="stat-divider"></div>
-              <div className="stat">
-                <div className="stat-number">3+</div>
-                <div className="stat-label">Years Exp</div>
-              </div>
-              <div className="stat-divider"></div>
-              <div className="stat">
-                <div className="stat-number">100%</div>
-                <div className="stat-label">Passion</div>
-              </div>
-            </div>
+  <div className="stat">
+    <div className="stat-number">50+</div>
+    <div className="stat-label">Projects</div>
+  </div>
+
+  <div className="stat-divider"></div>
+
+  <div className="stat">
+    <div className="stat-number">∞</div>
+    <div className="stat-label">Learning</div>
+  </div>
+
+  <div className="stat-divider"></div>
+
+  <div className="stat">
+    <div className="stat-number">100%</div>
+    <div className="stat-label">Commitment</div>
+  </div>
+</div>
+
 
             {/* Actions */}
             <div className="hero-actions">
