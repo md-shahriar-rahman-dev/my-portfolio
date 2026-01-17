@@ -32,7 +32,7 @@ export default function Projects() {
           {/* Project stats */}
           <div className="projects-stats">
             <div className="stat">
-              <div className="stat-number">{PROJECTS.length}+</div>
+              <div className="stat-number">50+</div>
               <div className="stat-label">Projects Built</div>
             </div>
             <div className="stat-divider"></div>
